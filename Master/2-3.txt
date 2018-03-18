@@ -1,0 +1,227 @@
+18-Mar-2018 09:13:40.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+18-Mar-2018 09:13:40.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+18-Mar-2018 09:13:40.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+18-Mar-2018 09:13:40.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Mar-2018 09:13:40.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-135-generic
+18-Mar-2018 09:13:40.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Mar-2018 09:13:40.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+18-Mar-2018 09:13:40.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+18-Mar-2018 09:13:40.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Mar-2018 09:13:40.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ubuntu/tomcat
+18-Mar-2018 09:13:40.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ubuntu/tomcat
+18-Mar-2018 09:13:40.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ubuntu/tomcat/conf/logging.properties
+18-Mar-2018 09:13:40.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Mar-2018 09:13:40.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Mar-2018 09:13:40.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Mar-2018 09:13:40.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Mar-2018 09:13:40.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ubuntu/tomcat
+18-Mar-2018 09:13:40.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ubuntu/tomcat
+18-Mar-2018 09:13:40.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ubuntu/tomcat/temp
+18-Mar-2018 09:13:40.911 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Mar-2018 09:13:41.176 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Mar-2018 09:13:41.203 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Mar-2018 09:13:41.220 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Mar-2018 09:13:41.224 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Mar-2018 09:13:41.231 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1067 ms
+18-Mar-2018 09:13:41.274 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Mar-2018 09:13:41.275 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+18-Mar-2018 09:13:41.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ubuntu/tomcat/webapps/CS122b-Project.war]
+18-Mar-2018 09:13:42.252 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Mar-2018 09:13:42.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ubuntu/tomcat/webapps/CS122b-Project.war] has finished in [964] ms
+18-Mar-2018 09:13:42.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/docs]
+18-Mar-2018 09:13:42.468 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Mar-2018 09:13:42.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/docs] has finished in [174] ms
+18-Mar-2018 09:13:42.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/manager]
+18-Mar-2018 09:13:42.632 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Mar-2018 09:13:42.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/manager] has finished in [297] ms
+18-Mar-2018 09:13:42.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/host-manager]
+18-Mar-2018 09:13:42.912 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Mar-2018 09:13:42.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/host-manager] has finished in [144] ms
+18-Mar-2018 09:13:42.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/examples]
+18-Mar-2018 09:13:43.327 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Mar-2018 09:13:43.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/examples] has finished in [438] ms
+18-Mar-2018 09:13:43.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/ROOT]
+18-Mar-2018 09:13:43.480 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Mar-2018 09:13:43.484 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/ROOT] has finished in [130] ms
+18-Mar-2018 09:13:43.489 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Mar-2018 09:13:43.516 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Mar-2018 09:13:43.535 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2303 ms
+18-Mar-2018 09:15:32.010 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CS122b-Project]
+18-Mar-2018 09:15:50.081 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ubuntu/tomcat/webapps/CS122b-Project.war]
+18-Mar-2018 09:15:50.439 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ubuntu/tomcat/webapps/CS122b-Project.war] has finished in [358] ms
+T 600923812 512436663
+T 27820994 27707293
+T 27612523 27543305
+T 28063306 27997065
+T 63370168 28382746
+T 61356336 3465018
+T 27449504 27347806
+T 28824588 28756276
+T 26657472 26566682
+T 27756693 27685744
+T 27518272 27453957
+T 65327594 10210226
+T 70824677 27494269
+T 69624573 22651175
+T 99046647 27174651
+T 28777058 28652014
+T 66549596 21754177
+T 47568610 27534052
+T 27197061 27128873
+T 55942896 24911589
+T 48792738 26789184
+T 29063312 28989122
+T 34827369 27001775
+T 54869186 27575072
+T 48351439 27391320
+T 27796968 27729326
+T 31211517 27194268
+T 28982809 28913073
+T 38739077 27736492
+T 27256161 27177526
+T 28922189 3479526
+T 31669452 3984325
+T 22077246 3268010
+T 27081240 26997554
+T 27006785 26924327
+T 47428149 27495953
+T 52371673 21356281
+T 26668204 26596735
+T 27187236 27121841
+T 27758737 27690948
+T 30069671 27342678
+T 31739177 4751827
+T 27478576 27065272
+T 33512798 4293437
+T 25406901 6513189
+T 29763955 4007545
+T 32259466 32175469
+T 27059938 26975617
+T 31402602 3940006
+T 23163182 3060395
+T 26980818 26915485
+T 41941953 27878513
+T 27619647 27505489
+T 38460319 27601233
+T 20892069 2427184
+T 26688484 26622225
+T 27161148 27066749
+T 53444848 23954160
+T 26951779 26865350
+T 30073399 30008528
+T 34886747 6712726
+T 33474962 3082388
+T 41155344 33819519
+T 22027042 4129960
+T 31014670 27156452
+T 38145515 27187716
+T 26947561 26879087
+T 26476798 26417370
+T 28407887 28327050
+T 26942385 26883800
+T 26650474 26592334
+T 26708599 26646676
+T 26738551 26667774
+T 30588742 26885344
+T 28274577 28207929
+T 27185709 27118113
+T 63083093 47282908
+T 27515209 27444329
+T 26826383 26755856
+T 40848072 23818788
+T 50962772 23755118
+T 45489880 24895167
+T 39280994 21811610
+T 30986748 27303589
+T 28065741 27995541
+T 21853773 4479036
+T 37667642 27025615
+T 37245707 26866623
+T 37477417 26970853
+T 31758226 26748981
+T 37727059 20798078
+T 41171064 23840955
+T 21632379 4146197
+T 40147002 21916988
+T 30622827 26807984
+T 40797998 27015171
+T 27818443 27757686
+T 38200571 27591557
+T 27033503 26972177
+T 43397962 43328514
+T 34183347 27254366
+T 34963402 10041683
+T 28809417 28547416
+T 34192303 27066905
+T 22477378 5355123
+T 38201352 21858762
+T 26428497 26372342
+T 21084464 3974390
+T 36623565 26719526
+T 30259132 9567591
+T 34902964 28025070
+T 27017072 26962271
+T 49277069 49221710
+T 43570199 23143397
+T 45366156 21623234
+T 26771317 26716307
+T 33827663 26515999
+T 26995810 26942265
+T 25484015 2400380
+T 33465495 26745493
+T 28237708 28174274
+T 35563592 6726191
+T 40878138 24662880
+T 27646142 27585182
+T 49556329 27476225
+T 32133406 28511550
+T 37107684 27298108
+T 26982717 26901174
+T 22448892 6125465
+T 33480132 26686862
+T 26854241 26798959
+T 26583233 26514079
+T 23295910 5985195
+T 26781867 26715528
+T 37404745 27492256
+T 42671540 33100067
+T 26732559 26673009
+T 27145237 27076907
+T 26774715 26718660
+T 36065313 20244945
+T 33712888 26894059
+T 30847859 2557659
+T 37355766 3307573
+T 57495945 24088377
+T 27715198 27650120
+T 38867771 26597560
+T 33879609 27633998
+T 26898503 26837162
+T 28613876 28554446
+T 26680651 26615870
+T 21811288 6044934
+T 37992621 37915187
+T 27178970 27082486
+T 27000982 26929187
+T 37337008 21417230
+T 36018975 26633370
+T 29672636 29606055
+T 33112047 26565670
+T 26822660 26769917
+T 39507130 26707684
+T 36267006 26698290
+T 39962471 26798883
+T 27197699 27136394
+T 21714522 6034402
+T 21419991 4111829
+T 27535191 27479448
+T 35638236 27191574
+T 29343101 29270049
+T 27874799 27782958
+T 36657741 27291366
+T 27867236 27814298
+T 30203845 26953231
+T 26788934 26736359
+T 26776277 26722315
+T 45058977 28185672
+T 26662311 26600209
